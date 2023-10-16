@@ -25,8 +25,9 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResTarget \
-    SettingsProviderResTarget
-    
+    SettingsProviderResTarget \
+    SettingsResTarget
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
