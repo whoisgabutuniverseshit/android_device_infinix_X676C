@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     
 # Overlays
 PRODUCT_PACKAGES += \
+    FrameworksResTarget \
     SettingsProviderResTarget
     
 # Soong namespaces
