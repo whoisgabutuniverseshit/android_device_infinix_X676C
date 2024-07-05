@@ -17,6 +17,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor:64
+
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.3.vendor
     
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
