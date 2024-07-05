@@ -1,5 +1,19 @@
 ## X676C package version: X676C-H891ZAaAbAc-S-OP-240313V1027, unless stated otherwise
 
+# Fingerprint
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
+vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc
+vendor/etc/init/vendor.silead.rc
+-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
+-vendor/etc/vintf/manifest/manifest_silead.xml
+vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so
+vendor/lib64/hw/fingerprint.silead.default.so
+vendor/lib64/libsl_fp_impl.so
+vendor/lib64/vendor.silead.hardware.fingerprintext@1.0-adapter-helper.so
+vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so
+
 # Firmware
 vendor/firmware/aw8622x_haptic.bin
 vendor/firmware/aw8622x_osc_rtp_12K_10s.bin
