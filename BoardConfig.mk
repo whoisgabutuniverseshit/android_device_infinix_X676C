@@ -42,5 +42,8 @@ BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(KERNEL_PATH)/modules/*.ko)
 # Workaround to make lineage's soong generator work
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
 
+# Include the common OEM chipset BoardConfig.
+include device/transsion/mt6789-common/BoardConfigCommon.mk
+
 # Inherit the proprietary files
 include vendor/infinix/X676C/BoardConfigVendor.mk

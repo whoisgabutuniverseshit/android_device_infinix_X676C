@@ -32,5 +32,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Inherit from the common OEM chipset makefile.
+$(call inherit-product, device/transsion/mt6789-common/common.mk)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/infinix/X676C/X676C-vendor.mk)
