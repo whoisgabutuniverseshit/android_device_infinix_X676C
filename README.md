@@ -1,9 +1,1 @@
-# Android device tree for Infinix  (FULL-64-ARMV82)
-
-```
-#
-# Copyright (C) 2024 The LineageOS Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-```
+# Device tree for the Infinix NOTE 12 2023 (X676C)
